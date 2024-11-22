@@ -1,0 +1,118 @@
+:root {
+	--primary-color: #ff7b47;
+	--secondary-color-1: #0d5c63;
+	--secondary-color-2: #17213c;
+	--text-color: #252b42;
+	--second-text-color: #737373;
+	--light-text-color: #fff;
+	--dark-background-color: #252b42;
+	--light-background-color: #fff;
+	--hover-color: #2a7cc7;
+	--disabled-element-color: #8ec2f2;
+	--muted-color: #bdbdbd;
+	--success-color: #2dc071;
+	--alert-color: #e77c40;
+	--danger-color: #e74040;
+    --font-family: "Montserrat", sans-serif;
+}
+
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+body{
+    font-family: var(--font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 143%;
+    letter-spacing: 0.01em;
+    color: var(--second-text-color)
+}
+
+.firstscreen {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/mainblock/cover.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right bottom;
+}
+.wrapper {
+    width: 1040px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.firstscreen_header {
+    height: 104px;
+    display: flex;
+    align-items:center;
+    margin-bottom: 80px;
+}
+.logo {
+    padding: 10px;
+    width: 187px;
+    height: 58px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 133%;
+    letter-spacing: 0em;
+    color: var(--text-color);
+}
+.nav {
+    width: 320px;
+    height: 24px;
+}
+
+.nav ul{
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    list-style: none;
+}
+
+.firstscreen_text {
+    width: 510px;
+}
+.title {
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 138%;
+    letter-spacing: 0em;
+    color: var(--text-color);
+    margin-bottom: 35px;
+}
+.subTitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    width: 380px;
+    margin-bottom: 35px;
+}
+
+.btnGetQuoteNow {
+    border-radius: 37px;
+padding: 10px 36px;
+width: 188px;
+height: 50px;
+background: var(--primary-color);
+font-weight: 700;
+font-size: 14px;
+line-height: 200%;
+letter-spacing: 0.01em;
+text-align: center;
+color: var(--light-text-color);
+}
+.btnLearnMore {
+}
